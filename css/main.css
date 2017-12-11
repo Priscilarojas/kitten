@@ -1,0 +1,48 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+.row{
+  display: flex;
+  background-image: url("../assets/imagen/sunny-day.jpg");
+  background-repeat: no-repeat;
+  padding-top: 250px;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.cat{
+background-size: cover;
+background-image: url("../assets/imagen/night.jpg");
+margin: auto;
+width: 440px;
+height: 300px;
+}
+@media only screen and (max-width: 900px){
+  body{
+    background-image: url("../assets/iamgen/daw.png");
+    padding-top: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.cat{
+  background-image: url("../assets/image/kitten-large.png");
+  background-size: cover;
+  width: 550px;
+  height: 250px;
+  }
+}
+@media only screen and (max-width: 800px){
+  body{
+    background-image: url("../assets/iamgen/nigth.jpg");
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.cat{
+  background-image: url("../assets/image/kitten-small.png");
+  background-size: cover;
+  width: 350px;
+  height: 300px;
+  }
+}
